@@ -1,6 +1,6 @@
 #Credit Card Generator
 #Caution: This can be used for malicious purposes
-#Im not liable for your actions
+#Me and my friend are not liable for your actions
 #Gotta Go Fast!!!! Enjoy My Code!!!!
 #Also, thanks to my friend Cobra for helping me improve this code. Follow his GitHub: @FURRO404
 #==========================================
@@ -12,6 +12,8 @@ import datetime
 
 list1 = []
 list2 = []
+
+print("Thanks to my friend Cobra for helping improve my code, follow his GitHub: @FURRO404!!!!")
 
 user_input = str(input("Type in a credit card you would like: Visa, MasterCard, Discover, or American Express: "))
 
@@ -108,10 +110,10 @@ elif user_input == "American Express":
     for i in range(0,times):
         l = list1.clear()
         p = list2.clear()
-        for i in range(0,16):
+        for i in range(0,15):
             n = random.randint(0,9)
             list1.append(n)
-        for i in range(0,3):
+        for i in range(0,4):
             o = random.randint(0,9)
             list2.append(o)
 
